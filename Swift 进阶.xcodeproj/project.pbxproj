@@ -15,6 +15,7 @@
 		22E3119825BEFC40002D68BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E3119625BEFC40002D68BA /* LaunchScreen.storyboard */; };
 		22E311A325BEFC40002D68BA /* Swift___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E311A225BEFC40002D68BA /* Swift___Tests.swift */; };
 		22E311AE25BEFC40002D68BA /* Swift___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E311AD25BEFC40002D68BA /* Swift___UITests.swift */; };
+		22E311D525BEFE2F002D68BA /* Test in Resources */ = {isa = PBXBuildFile; fileRef = 22E311D425BEFE2F002D68BA /* Test */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		22E311A925BEFC40002D68BA /* Swift 进阶UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift 进阶UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E311AD25BEFC40002D68BA /* Swift___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift___UITests.swift"; sourceTree = "<group>"; };
 		22E311AF25BEFC40002D68BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E311D425BEFE2F002D68BA /* Test */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Test; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				22E3118B25BEFC3E002D68BA /* AppDelegate.swift */,
 				22E3118D25BEFC3E002D68BA /* SceneDelegate.swift */,
 				22E3118F25BEFC3E002D68BA /* ViewController.swift */,
+				22E311D425BEFE2F002D68BA /* Test */,
 				22E3119125BEFC3E002D68BA /* Main.storyboard */,
 				22E3119425BEFC40002D68BA /* Assets.xcassets */,
 				22E3119625BEFC40002D68BA /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E311D525BEFE2F002D68BA /* Test in Resources */,
 				22E3119825BEFC40002D68BA /* LaunchScreen.storyboard in Resources */,
 				22E3119525BEFC40002D68BA /* Assets.xcassets in Resources */,
 				22E3119325BEFC3E002D68BA /* Main.storyboard in Resources */,
