@@ -15,7 +15,7 @@ class CWDOptional: NSObject {
 extension CWDOptional{
     
     class func show(){
-        test5()
+        test6()
     }
     
     class func test1(){
@@ -152,6 +152,25 @@ extension CWDOptional{
         if let aview2 = view2 {
             UIView().addSubview(aview2)
         }
+    }
+    
+    class  func test6() {
+        /*
+        使用flatMap过滤nil
+
+        同样这里我们用一个demo去说明用法
+
+        目的:我们想要求一个字符串数组中的数字和。*/
+        
+        let numbers = ["1","2","3","4","liaoworking"]
+        var sum = 0
+        for case let i? in  numbers.map({
+            Int($0)
+        }){
+            sum += i //
+        }
+        print("sum =\(sum)")
+ 
     }
 }
 //多个可选链的调用。下面这个例子简单易懂，不赘述。
